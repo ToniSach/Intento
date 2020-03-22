@@ -1,66 +1,39 @@
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+body {
+    background: #ccc;
+    color: #333;
+    font: 14px 'Arial',sans-serif;
+    text-align: center;
+}
+div.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+div.juego {
+
+}
+div.juego canvas {
+    box-shadow: 0 0 30px #000;
+    background: url("../img/pfondo2.JPG") no-repeat left;
+    background-attachment: 319px;
+}
+div.derecha {
+    float: right;
+}
+div.derecha {
+    padding: 10px;
+}
+div.derecha {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-html,body{
-	background-color: #F6F1D1;
-}
-
-.titulo{
-	padding: .5rem;
-	margin: 0;
-	background-color: #40798C;
-}
-
-a,h1{
-	display: inline-block;
-}
-
-h1,ul,li,a{
-	display: inline-block;
-}
-
-
-
-section,article,aside{
-	border:2px solid rgb(50,85,125);
-	margin: 1rem;
-	border-radius: 5px;
-	padding: 1rem;
-	background-color: #CFD7C7;
-}
-a,p{
-	display: inline-block;
-}
-article{
-	width: 65%;
-}
-aside{
-	width: 24%;
-}
-article,aside{
-
-	display: inline-block;
-	background-color: #70A9A1;
-	align-items: center;
-	text-align: center;
-	justify-content: 
-}
-
-footer{
-	padding: .5rem;
-	margin: 0;
-	background-color: #0B2027;
-	color: white;
-}
-#navegadors{
-	text-align: center;
-}
-#hiii{
-	float: left;
-}
-#lista{
-	float: right;
+div.derecha ul#puntuaciones li{
+    line-height:1.5em;
+    border-bottom:1px solid #aaa;
+    float:left;
+    display:inline;
+    width: 50%;
+    padding: 10px 0;
 }
